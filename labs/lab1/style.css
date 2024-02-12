@@ -52,16 +52,16 @@ p{
 }
 
 #container > div {
-    display: flex; /* Set display property to flex */
-    justify-content: space-around; /* Align children with equal space around them */
-    align-items: center; /* Center children vertically */
-    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: wrap;
 }
 
 #section01,#section02,#section03{
-    flex-basis: calc(20%); /* Set width for each section, adjust as needed */
-    margin: 10px; /* Add some margin between sections */
-    text-align: center; /* Center text within each section */
+    flex-basis: calc(20%);
+    margin: 10px; 
+    text-align: center; 
 }
 
 
