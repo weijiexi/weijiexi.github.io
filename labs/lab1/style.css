@@ -9,5 +9,57 @@ body {
     margin: 0;
     padding: 64px;
     background-color: #f7f5f2;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+.logo{
+    width: 35px;
+}
+
+h1 {
     color: #184C78;
+    font-size: 2 em;
+    font-weight: 700;
+    margin: 1em 0;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+}
+
+.section01, .section02, .section03 {
+    flex: 0 1 calc(30% - 10px); /* Set flex-grow, flex-shrink, flex-basis */
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Include padding and border in the width */
 }
