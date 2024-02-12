@@ -37,17 +37,35 @@ nav li a:hover {
 
 h1 {
     color: #184C78;
-    font-size: 2 em;
-    font-weight: 700;
+    font-size: 3 em;
+    font-weight: 800;
     margin: 1em 0;
     text-align: center;
 }
-.section01,.section02,.section03{
 
-    margin: 0;
-    padding: 25px;
-    text-align: center;
+h2{
+    text-align: center; 
 }
+
+p{
+    text-align: center; 
+}
+
+#container > div {
+    display: flex; /* Set display property to flex */
+    justify-content: space-around; /* Align children with equal space around them */
+    align-items: center; /* Center children vertically */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+}
+
+#section01,#section02,#section03{
+    flex-basis: calc(20%); /* Set width for each section, adjust as needed */
+    margin: 10px; /* Add some margin between sections */
+    text-align: center; /* Center text within each section */
+}
+
+
+
 
 
 
