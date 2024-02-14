@@ -39,7 +39,8 @@ div {
     border-radius: 50%;
 }
 
-#third-row > .circle {
+
+#third-row  .circle {
     width: 60px;
     height: 60px;
     background: #de6868;
@@ -54,49 +55,46 @@ div {
     display: inline-block;
     margin-right: 30px;
 }
+
 .row {
     margin-bottom: 30px;
 }
 .green {
     background: #78c272;
 }
+
 .fancy {
     border: 3px inset rgba(74, 74, 74, 0.25);
     width: 54px;
     height: 54px;
-    border-style: dotted;
 }
-.fancy {
-    border: 3px inset rgba(74, 74, 74, 0.25);
-    width: 54px;
-    height: 54px;
-   
-}
-#first-row >.fancy {
+
+#first-row .fancy {
     border: 3px inset rgba(74, 74, 74, 0.25);
     width: 54px;
     height: 54px;
     border-style: dotted;
 }
 
-#second-row > .fancy {
+#second-row .fancy {
     border: 3px inset rgba(74, 74, 74, 0.25);
     width: 54px;
     height: 54px;
     border-style: dotted;
 }
 
-#fourth-row > .fancy {
+#fourth-row  .fancy {
     border: 3px inset rgba(74, 74, 74, 0.25);
     width: 54px;
     height: 54px;
     border-style: dotted;
 }
 
-#fifth-row > .fancy {
+#fifth-row .fancy {
     border: 3px inset rgba(74, 74, 74, 0.25);
     width: 54px;
     height: 54px;
     border-style: dotted;
 }
+
 
