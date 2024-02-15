@@ -10,8 +10,13 @@ a {
 	text-decoration: none;
 }
 
+p{
+    text-align: justify;
+}
+
 p:first-child {
     font-style: italic;
+  
 }
 
 p:nth-child(2) {
@@ -23,7 +28,7 @@ p:nth-child(2) {
 }
 
 .img-scaled-wh {
-    width: 100%;
+    width: 60%;
     height: 100%:
 }
 
