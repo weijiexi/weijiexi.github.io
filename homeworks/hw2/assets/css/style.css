@@ -67,34 +67,35 @@ div {
     border: 3px inset rgba(74, 74, 74, 0.25);
     width: 54px;
     height: 54px;
+  
 }
-
-#first-row .fancy {
-    border: 3px inset rgba(74, 74, 74, 0.25);
-    width: 54px;
-    height: 54px;
+.circle.fancy {
     border-style: dotted;
 }
 
-#second-row .fancy {
-    border: 3px inset rgba(74, 74, 74, 0.25);
-    width: 54px;
-    height: 54px;
-    border-style: dotted;
+#second-row .circle:nth-child(1),
+#third-row .circle:nth-child(1),
+#fifth-row .circle:nth-child(1) {
+    opacity: 0;
 }
 
-#fourth-row  .fancy {
-    border: 3px inset rgba(74, 74, 74, 0.25);
-    width: 54px;
-    height: 54px;
-    border-style: dotted;
+.circle.green,
+.circle.fancy,
+.circle.green.fancy {
+    background: #6392c0;
 }
 
-#fifth-row .fancy {
-    border: 3px inset rgba(74, 74, 74, 0.25);
-    width: 54px;
-    height: 54px;
-    border-style: dotted;
+.square.green,
+.square.fancy,
+.square.green.fancy {
+    background: #6392c0;
 }
 
+.circle:hover {
+    opacity: 0.5;
+}
 
+#second-row .circle:nth-child(3){
+    opacity: 0.5;
+    transform: scale(1.25)
+}
