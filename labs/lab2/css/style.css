@@ -63,11 +63,12 @@ h1{
 }
 
 section {
-    padding: __px;
+    padding: 30px;
     border: 1px solid #cccccc;  
-    margin-bottom: __px;
+    margin-bottom: 30px;
 }
 
 section img {
-    width: __px;
+    width: 600px;
 }
+
