@@ -30,6 +30,7 @@ div {
     top: calc(50% - 240px);
     left: calc(50% - 240px);
 }
+
 .circle {
     width: 60px;
     height: 60px;
@@ -39,7 +40,6 @@ div {
     border-radius: 50%;
 }
 
-
 #third-row  .circle {
     width: 60px;
     height: 60px;
@@ -48,6 +48,7 @@ div {
     margin-right: 30px;
     border-radius: 50%;
 }
+
 .square {
     width: 60px;
     height: 60px;
@@ -59,6 +60,7 @@ div {
 .row {
     margin-bottom: 30px;
 }
+
 .green {
     background: #78c272;
 }
@@ -66,9 +68,9 @@ div {
 .fancy {
     border: 3px inset rgba(74, 74, 74, 0.25);
     width: 54px;
-    height: 54px;
-  
+    height: 54px; 
 }
+
 .circle.fancy {
     border-style: dotted;
 }
@@ -99,3 +101,4 @@ div {
     opacity: 0.5;
     transform: scale(1.25)
 }
+
