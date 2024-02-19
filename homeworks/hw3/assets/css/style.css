@@ -5,9 +5,7 @@ body,html{
 }
 
 /* PROBLEM 2: Select profile picture and make it round */
-#profile-pic .img-scaled{
-    border-radius: 50%;
-}
+
 
 /* PROBLEM 3: Flesh our your follow button! 5 px for the
 top and bottom, 30 for the left and right*/
