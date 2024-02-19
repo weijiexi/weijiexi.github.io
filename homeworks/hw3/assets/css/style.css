@@ -1,24 +1,41 @@
 /* PROBLEM 1: Remove white margin of body, html */
-/* YOUR CODE HERE */
+body,html{
+    margin: 0;
+    padding: 0;
+}
 
 /* PROBLEM 2: Select profile picture and make it round */
-/* YOUR CODE HERE */
+#profile-pic .img-scaled{
+    border-radius: 50%;
+}
 
 /* PROBLEM 3: Flesh our your follow button! 5 px for the
 top and bottom, 30 for the left and right*/
-/* YOUR CODE HERE */
+#follow-button{
+    padding: 5px 30px;
+}
 
 /* PROBLEM 4: Turn items into a square, 120x120 px image */
-/* YOUR CODE HERE */
+.item{
+    width: 120px;
+    height: 120px;
+    margin: 3.5px;
+    
+}
 
 /* PROBLEM 5: Create a 10 px horizontal space between items */
-/* YOUR CODE HERE */
+
 
 /* PROBLEM 6: Create a 10px vertical space between rows */
-/* YOUR CODE HERE */
+.row{
+    margin-bottom: 10px;
+
+}
 
 /* PROBLEM 7: Add 20px of space between each navigation item */
-/* YOUR CODE HERE */
+.navbar-item{
+    margin-right: 20px;
+}
 
 /* PROBLEM 8: Create a hover effect, so that items will have
 full opacity when hovered over! It should also have a
