@@ -76,27 +76,56 @@ header {
     /* PROBLEM 6: Similar to .image-card-cover-overlay, position the card text */
     position: absolute;
     color: white;
+   bottom: 12px;
+    left: 30px;
+    font-size: 22px;
+    opacity: 0.9;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 
 /* PROBLEM 7: Improve the typography and colors of this page! */
 
 #title {
-
+    color: #573ac0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
 }
 
-h1 {
-
+h1, h2, h3{
+  
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+  
 }
 
-h2 {
-
+h1{
+    font-size: 32px;
+    font-weight: 500;
+    color: #573ac0;
 }
 
-h3 {
+h2{
+    font-size: 24px;
+    font-weight: 300;
+    color: #573ac0;
+}
 
+h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #573ac0;
 }
 
 p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: rgb(33, 33, 34);
+    
 
 }
