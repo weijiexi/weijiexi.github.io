@@ -40,7 +40,7 @@ header {
 
 .image-card {
     display: inline-block;
-    float: left;
+    float:left;
     overflow: hidden;
     margin-right: 40px;
     /* PROBLEM 3: Give .image-card the appropriate position type */
@@ -59,25 +59,22 @@ header {
 .image-card-color-overlay {
     position: absolute;
     /* PROBLEM 4: Move the color overlay to cover the image properly */
-    
-    top: 50px;
-    left: 200px;
+    top: 0px;
+    left: 0px;
     /* PROBLEM 5: What should the opacity be when there is no hover? */
-    opacity: 0.7;
+    opacity: 0;
     transition: 0.3s;
     background-color: navy;
 }
 
 .image-card:hover .image-card-color-overlay {
     /* PROBLEM 5: Pick an opacity for the blue hover effect */
-    opacity: 0.7;
+    opacity: 0.25;
 }
 
 .image-card-text {
     /* PROBLEM 6: Similar to .image-card-cover-overlay, position the card text */
-
-
-
+    position: absolute;
     color: white;
 }
 
