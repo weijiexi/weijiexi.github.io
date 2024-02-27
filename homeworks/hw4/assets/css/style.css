@@ -9,12 +9,14 @@ header {
     padding-bottom: 20px;
     background: white;
     /* PROBLEM 1: Make the header stick to the top as you scroll */
+    position: fixed;
 
 }
 
 .content {
     width: 800px;
     /* PROBLEM 2: Align the page content to the center of the screen */
+    margin: 0 auto;
 
 }
 
@@ -42,6 +44,7 @@ header {
     overflow: hidden;
     margin-right: 40px;
     /* PROBLEM 3: Give .image-card the appropriate position type */
+    position: relative;
 
 }
 
@@ -56,6 +59,7 @@ header {
 .image-card-color-overlay {
     position: absolute;
     /* PROBLEM 4: Move the color overlay to cover the image properly */
+    
     top: 50px;
     left: 200px;
     /* PROBLEM 5: What should the opacity be when there is no hover? */

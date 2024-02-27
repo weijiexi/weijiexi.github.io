@@ -195,7 +195,7 @@ a:hover{
 }
 
 a:link{
-    color: #bd8484;
+    color: #d68e8e;
 
 }
 
@@ -362,23 +362,28 @@ form{
   
   .header {
     background: rgb(70, 168, 248);
+    color: #cbfcf7;
   }
   
   .footer {
-    background: rgb(128, 238, 194);
+    background: rgb(70, 168, 248);
+    color: #cbfcf7;
   }
   
   .main {
     text-align: left;
-    background: rgb(146, 215, 238);
+    background: rgb(164, 227, 248);
+    color: #cbfcf7;
   }
   
   .aside-1 {
-    background: rgb(245, 232, 161);
+    background: rgb(222, 209, 131);
+    color: #f6faf9;
   }
   
   .aside-2 {
-    background: rgb(205, 239, 152);
+    background: rgb(176, 209, 124);
+    color: #f5f9f9;
   }
   
   @media all and (min-width: 600px) {
