@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(232, 232, 229);
+    background-color: rgb(240, 236, 233);
 }
 
 header {
@@ -25,7 +25,7 @@ header {
     background-image: url('../img/sf_banner.png');
     background-size: cover;
     width: 100%;
-    height: 480px;
+    height: 460px;
 }
 
 
@@ -41,7 +41,7 @@ header {
 
 .image-card {
     display: inline-block;
-    float:left;
+    float: left;
     overflow: hidden;
     margin-right: 40px;
     /* PROBLEM 3: Give .image-card the appropriate position type */
@@ -55,6 +55,7 @@ header {
 
 .image-card img {
     width: 100%;
+    border-radius:6.5px;
 }
 
 .image-card-color-overlay {
@@ -65,7 +66,8 @@ header {
     /* PROBLEM 5: What should the opacity be when there is no hover? */
     opacity: 0;
     transition: 0.3s;
-    background-color: navy;
+    background-color: rgb(30, 0, 128);
+   
 }
 
 .image-card:hover .image-card-color-overlay {
@@ -77,11 +79,11 @@ header {
     /* PROBLEM 6: Similar to .image-card-cover-overlay, position the card text */
     position: absolute;
     color: white;
-   bottom: 12px;
+    bottom: 12px;
     left: 30px;
     font-size: 22px;
-    opacity: 0.8;
-    font-family: "Roboto", sans-serif;
+    opacity: 0.75;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
     font-style: normal;
 }
@@ -90,42 +92,43 @@ header {
 /* PROBLEM 7: Improve the typography and colors of this page! */
 
 #title {
-    color: #272432;
-    font-family: "Kaushan Script", cursive;
+    color: rgb(62, 18, 163);
+    font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    bottom: 5px;
+    font-style: italic;
+    font-size: 32.5px;
+    
 }
 
 h1, h2, h3{
   
-    font-family: "Roboto", sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-style: normal;
   
 }
 
 h1{
     font-size: 32px;
-    font-weight: 500;
-    color: #573ac0;
+    font-weight: 550;
+    color:  rgb(33, 33, 34);
 }
 
 h2{
     font-size: 24px;
     font-weight: 300;
-    color: #573ac0;
+    color:  rgb(33, 33, 34)
+    ;
 }
 
 h3{
     font-size: 20px;
-    font-weight: 400;
-    color: #573ac0;
+    font-weight: 550;
+    color:  rgb(62, 18, 163);
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8;
     font-size: 16px;
     color: rgb(33, 33, 34);
 }
