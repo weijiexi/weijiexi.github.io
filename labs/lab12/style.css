@@ -402,7 +402,102 @@ form{
     padding: 2em; 
   }
   
+/* nav*/
+  .nav{
+    background-color:#003262;
+    padding:20px;
+    width: 85px;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav--button{
+  padding:10px;
+  text-align:center;
+  font-size:14px;
+  color:#fff;
+
   
+}
+.nav--button img{
+width: 56%;
+height: 56%;
+margin-bottom:5px;
+filter:invert(100%);
+}
+
+
+/* main */
+.main{
+  display:-webkit-box;
+  display:flex;
+  width:100%;
+}
+.dashboard{
+  width:100%
+  
+
+}
+
+.dashboard--title{
+  padding:0 24px 20px 0;
+  margin:0 24px 30px 0;
+  border-bottom:1px solid rgba(0,0,0,0.25);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard--classes{
+  /*  [Problem 5]
+      FIXME: Use flexbox to make the classes tabs wrap in a 3x2 setup.
+      Use flexbox to create equal spacing between each box. */
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+
+}
+.dashboard--title img{
+  width:20px;
+}
+.dashboard--classes__box{
+  border-radius:5px;
+  box-shadow:0 2px 5px rgba(0,0,0,0.3);
+  -webkit-transition:all 0.1s;
+  transition:all 0.1s;
+  width:31%;
+  margin-bottom: 35px;
+}
+
+.dashboard--classes__box__image{
+  height:146px;
+  background-color:#1770ab;
+}
+.dashboard--classes__box__description{
+  padding:15px 22.5px;
+}
+.dashboard--classes__box__controls__buttons{
+  margin-top:9px;
+  display:-webkit-box;
+  display:flex;
+  -webkit-box-pack:justify;
+  justify-content:space-between;
+}
+.dashboard--classes__box__controls__buttons img{
+  height:23.5px;
+  -webkit-filter:invert(40%);
+  filter:invert(40%);
+}
+.dashboard--classes__box__controls__buttons img:hover{
+  cursor:pointer;
+}
+
+
+
 
     
    

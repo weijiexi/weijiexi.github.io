@@ -2,7 +2,6 @@
     /* [Problem 1] 
         FIXME: Set the width of the nav class to 85px. */
     width: 85px;
-
 }
 
 .nav--button{
@@ -13,11 +12,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
- 
-
-
-
 }
+
+
+
+
 .dashboard{
     /*  [Problem 3]
         FIXME: Add some breathing room! The dashboard portion is a bit tight! 
