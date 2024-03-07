@@ -107,3 +107,9 @@
         align-items: center;
         
 }
+
+.notifications__notifs .notifications__notifs--box a{
+    text-decoration: none;
+    color:rgba(108,117,124,0.6);
+    font-weight:400;
+}
