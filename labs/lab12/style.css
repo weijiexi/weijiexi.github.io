@@ -410,7 +410,15 @@ form{
     /* flexbox */
     display: flex;
     flex-direction: column;
-
+    animation: pulse 5s infinite;
+}
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #9e1084;
+  }
 }
 
 .nav--button{
@@ -496,8 +504,90 @@ filter:invert(100%);
   cursor:pointer;
 }
 
+.element {
+  height: 20px;
+  width: 20px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+  display: inline-flex;
+  padding: 50px;
+ 
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: red;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    transform: scale(.5);
+    background-color: yellow;
+    border-radius: 100%;
+  }
+}
+
+@keyframes bounce {
+  from {
+    /* starting position */
+    transform: translateY(-200px);
+  }
+  to {
+    /* ending position */
+    transform: translateY(30px);
+  }
+}
 
 
+#pumpkin {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  z-index: 1;
+  transform: translateY(-200px);
+  /* TODO: Use animation property with 0.5s duration,
+     ease-in timing function, no delay, repeats 
+     infinitely, and alternates. */
+  animation: bounce 0.8s ease-in 0s infinite alternate;
+  filter: invert(100%);
+  opacity: 0.5;
 
-    
-   
+}
+
+@keyframes shadowSize {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+#shadow {
+  height: 50px;
+  width: 160px;
+  background: black;
+  opacity: 0.2;
+  border-radius: 100%;
+  /* TODO: Use animation with same properties as pumpkin. */
+  animation: shadowSize 0.8s ease-in 0s infinite alternate;
+ 
+}
+
+#pumpkin, #shadow {
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+}
