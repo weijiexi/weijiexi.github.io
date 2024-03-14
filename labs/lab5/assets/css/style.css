@@ -50,6 +50,27 @@ body {
 
 /* Add the necessary code for all of question 2, flexbox-ception, below */
 
+#q2-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.q2-big-box{
+	display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
+  	align-items: center;
+  
+}
+
+.q2-tiny-box{
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+
+}
 
 
 /*************************/
@@ -93,6 +114,7 @@ body {
 }
 
 .q2-tiny-box {
+	width: 35px;
 	border: 2px solid white;
 	border-radius: 4px;
 	background-color: #FCBCB8;
