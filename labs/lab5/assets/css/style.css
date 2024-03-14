@@ -10,6 +10,29 @@ body {
 /************/
 
 /*Edit and add the necessary code for all of question 1, Navbar Madness, below */
+#q1-navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+	list-style-type: none;
+}
+
+#q1-navbar li {
+    float: left;
+	height: 33px;
+	padding-top: 10px;
+}
+
+#q1-navbar li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#q1-navbar li a:hover {
+    background-color: #111;
+}
 
 #q1-navbar {
 	background: #364156;
