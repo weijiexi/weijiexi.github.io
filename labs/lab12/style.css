@@ -591,3 +591,18 @@ filter:invert(100%);
   margin: 0 auto;
   top: 50%;
 }
+
+
+/* Basic styling for search container */
+.search-container {
+  margin: 20px;
+}
+
+/* Styling for input field */
+#search-input {
+  padding: 8px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
