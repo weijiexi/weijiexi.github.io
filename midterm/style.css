@@ -2,7 +2,7 @@
 :root{
     --background_color_one: #FFF;
     --background_color_two: #f8f1e5;
-    --background_color_three: #d4c2b5;
+    --background_color_three: #dbcabd;
     --background_color_four: #6E2806;
 
 
@@ -10,6 +10,7 @@
     --hightlight_color:#ff9d00;
     --text_color_one:#372F2F;
     --text_color_two:#6E2806;
+    --text_color_three:#6d3214;
    
 }
 
@@ -167,7 +168,7 @@ a{
 }
 .inner_sodoi{
     width: 100%;
-    max-width: 1350px;
+    max-width: 1170px;
     margin: 0 auto;
     padding-top: 10px;
     display: flex;
@@ -195,7 +196,7 @@ a{
 
 .inner_intro{
     width: 100%;
-    max-width: 870px;
+    max-width:950px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -204,19 +205,19 @@ a{
 }
 
 .inner_intro img{
-    width: 321px;
-    height: 331px;
+    width: 320px;
+    height: 300px;
     border-radius:12px;
 
 }
 
-.intro_context{
-    padding-left: 25px;
+.intro_context p{
+    padding-left: 15px;
     font-family: 'roboto';
     font-weight: 400;
     font-style: normal;
     font-size: 13px;
-    line-height: 21.2px;
+    line-height: 23.2px;
     
 }
 
@@ -228,6 +229,9 @@ a{
 /*our_coffee*/
 
 .our_coffee{
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
     min-height: 700px;
     background-color: var(--background_color_three);
 
@@ -243,7 +247,6 @@ a{
     align-items: center;
     font-family: "IM Fell English SC", serif;
     font-weight: 400;
-    font-style: normal;
     text-shadow:0px 15px 40px  var(--text_color_two)(0,0,0,0.3);
 
 }
@@ -254,6 +257,7 @@ a{
 }
 
 
+
 .inner_ourcoffee h1{
     font-size: 42px;
     font-weight: 700;
@@ -262,21 +266,26 @@ a{
    
 }
 
-
-
 .inner_worldcoffee{
+    max-width: 1020px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap:10px ;
+    grid-column-gap:12px ;
+    padding-bottom: 20px;
+
 }
 
 .inner_worldcoffee > div{
-    margin-top: 20px;
+    margin: 10px 4px 10px 4px;
+    background-color: var(--background_color_two);
+    border-radius: 12px;
 
 }
 .inner_worldcoffee img{
     display: block;
-    margin: -10px auto 0 auto;
+    margin: 10px auto 0 auto;
+    border-radius: 12px;
 }
 
 .inner_worldcoffee > div:nth-child(even){
@@ -288,24 +297,30 @@ a{
 }
 
 .inner_worldcoffee h1{
-    font-size: 20px;
-    font-weight: 700;
-    text-align: left;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
     color: var(--text_color_two);
-    margin-top:30px;
+    margin-top:10px;
     margin-bottom:10px;
-
+    font-family: 'roboto';
 }
+
 
 
 .inner_worldcoffee p{
     color: var(--text_color_one);
+    font-family: 'roboto';
+    font-weight: 400;
+    line-height: 20px;
     
 }
 
 .inner_worldcoffee a{
   color: var(--hightlight_color);
-  font-weight: 500;
+  font-weight: 400;
+  font-family: 'roboto';
+}
 }
 
 /* sodoi award*/
@@ -319,7 +334,7 @@ a{
 }
 .inner_award{
     width: 100%;
-    max-width: 1350px;
+    max-width: 1170px;
     margin: 0 auto;
     padding-top: 10px;
     display: flex;
@@ -366,7 +381,7 @@ a{
 
 .inner_awardintro{
     width: 100%;
-    max-width: 900px;
+    max-width: 950px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -376,20 +391,11 @@ a{
 
 .inner_awardintro img{
     width: 450px;
-    height: 300px;
+    height: 282px;
     border-radius:12px;
 
 }
 
-.intro_context{
-    padding-left: 25px;
-    font-family: 'roboto';
-    font-weight: 400;
-    font-style: normal;
-    font-size: 13px;
-    line-height: 21.2px;
-    
-}
 
 
 
