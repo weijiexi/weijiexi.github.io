@@ -6,8 +6,8 @@
     --background_color_four: #6E2806;
 
 
-
-    --hightlight_color:#ff9d00;
+    --nav_color:#fa8f03;
+    --hightlight_color:#e98502;
     --text_color_one:#372F2F;
     --text_color_two:#6E2806;
     --text_color_three:#b56b46;
@@ -51,7 +51,7 @@ ul{
 
 }
 
-        /*top header*/
+/*top header*/
 
 .top_header{
     background-color: var(--background_color_three);
@@ -129,7 +129,7 @@ ul{
 }
 
 .page_menu a:active,.page_menu a:hover{
-    background-color: var(--hightlight_color);
+    background-color: var(--nav_color);
     color: var(--background_color_one);
     box-shadow: 0px 15px 40px  rgba(0,0,0,0.2);
     border-radius: 5px;
@@ -271,8 +271,6 @@ ul{
     
 }
 
-
-
 .inner_ourcoffee h1{
     font-size: 42px;
     font-weight: 700;
@@ -320,7 +318,6 @@ ul{
     margin-bottom:10px;
     font-family: 'roboto';
 }
-
 
 
 .inner_worldcoffee p{
@@ -387,7 +384,7 @@ ul{
 
 }
 .inner_name h2{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 400;
     text-align: center;
     color: var(--text_color_three);
@@ -411,12 +408,6 @@ ul{
     border-radius:12px;
 
 }
-
-
-
-
-
-
 
 
 /*footer*/
