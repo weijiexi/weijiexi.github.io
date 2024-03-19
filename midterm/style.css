@@ -10,7 +10,7 @@
     --hightlight_color:#ff9d00;
     --text_color_one:#372F2F;
     --text_color_two:#6E2806;
-    --text_color_three:#6d3214;
+    --text_color_three:#b56b46;
    
 }
 
@@ -160,7 +160,7 @@ a{
 
 /* main*/
 .sodoi_coffee{
-    min-height: 540px;
+    min-height: 500px;
     max-width: 1440px;
     margin: 0 auto;
     background-color: var(--background_color_two);
@@ -170,7 +170,7 @@ a{
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,7 +182,7 @@ a{
 
 .inner_sodoi img{
     width: 68px;
-    height: 62px;
+    height: 65px;
     padding: 0px 17px 0px 20px;
 }
 
@@ -196,7 +196,7 @@ a{
 
 .inner_intro{
     width: 100%;
-    max-width:950px;
+    max-width:1000px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -205,11 +205,13 @@ a{
 }
 
 .inner_intro img{
-    width: 320px;
-    height: 300px;
+    width: 250px;
+    height: 280px;
     border-radius:12px;
 
 }
+
+
 
 .intro_context p{
     padding-left: 15px;
@@ -224,6 +226,8 @@ a{
 #text_higntlight{
     color: var(--hightlight_color);
     font-weight: 400;
+    font-size: 18px;
+
 }
 
 /*our_coffee*/
@@ -241,7 +245,7 @@ a{
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,8 +256,12 @@ a{
 }
 
 .world_inyoucup{
-    margin: 15px;
+    margin: 12px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    
 }
 
 
@@ -267,12 +275,12 @@ a{
 }
 
 .inner_worldcoffee{
-    max-width: 1020px;
+    max-width: 1040px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap:12px ;
-    padding-bottom: 20px;
+    grid-column-gap:15px ;
+    padding-bottom: 40px;
 
 }
 
@@ -297,10 +305,10 @@ a{
 }
 
 .inner_worldcoffee h1{
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 500;
     text-align: center;
-    color: var(--text_color_two);
+    color: var(--text_color_three);
     margin-top:10px;
     margin-bottom:10px;
     font-family: 'roboto';
@@ -313,15 +321,16 @@ a{
     font-family: 'roboto';
     font-weight: 400;
     line-height: 20px;
-    
+    font-size: 13px;
 }
 
 .inner_worldcoffee a{
   color: var(--hightlight_color);
   font-weight: 400;
   font-family: 'roboto';
+  
 }
-}
+
 
 /* sodoi award*/
 
@@ -336,7 +345,7 @@ a{
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -372,16 +381,16 @@ a{
 }
 .inner_name h2{
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
-    color: var(--hightlight_color);
+    color: var(--text_color_three);
     font-family: 'roboto';
    
 }
 
 .inner_awardintro{
     width: 100%;
-    max-width: 950px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -391,7 +400,7 @@ a{
 
 .inner_awardintro img{
     width: 450px;
-    height: 282px;
+    height: 262px;
     border-radius:12px;
 
 }
