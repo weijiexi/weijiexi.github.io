@@ -1,11 +1,13 @@
 
 :root{
     --background_color_one: #FFF;
-    --background_color_two: #FDF9F2;
-    --background_color_three: #ecded7;
+    --background_color_two: #f8f1e5;
+    --background_color_three: #d4c2b5;
     --background_color_four: #6E2806;
 
-    --hightlight_color:#f99601;
+
+
+    --hightlight_color:#ff9d00;
     --text_color_one:#372F2F;
     --text_color_two:#6E2806;
    
@@ -35,6 +37,8 @@ a{
     max-width: 1440px;
     margin: 0 auto;
     background-color: var(--background_color_two);
+    min-height: 160px;
+   
    
 
 }
@@ -163,7 +167,7 @@ a{
 }
 .inner_sodoi{
     width: 100%;
-    max-width: 1170px;
+    max-width: 1350px;
     margin: 0 auto;
     padding-top: 10px;
     display: flex;
@@ -215,6 +219,7 @@ a{
     line-height: 21.2px;
     
 }
+
 #text_higntlight{
     color: var(--hightlight_color);
     font-weight: 400;
@@ -242,6 +247,12 @@ a{
     text-shadow:0px 15px 40px  var(--text_color_two)(0,0,0,0.3);
 
 }
+
+.world_inyoucup{
+    margin: 15px;
+    text-align: left;
+}
+
 
 .inner_ourcoffee h1{
     font-size: 42px;
@@ -297,9 +308,87 @@ a{
   font-weight: 500;
 }
 
-.world_inyoucup{
-    margin: 15px;
-    text-align: left;
+/* sodoi award*/
+
+.sodoi_award{
+    min-height: 540px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--background_color_two);
+   
+}
+.inner_award{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "IM Fell English SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:0px 15px 40px  var(--text_color_two)(0,0,0,0.3);
+}
+
+.inner_award img{
+    width: 68px;
+    height: 62px;
+    padding: 0px 17px 0px 20px;
+}
+
+.inner_award h1{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--text_color_two);
+   
+}
+
+.inner_name {
+    width: 100%;
+    max-height: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0p x;
+
+}
+.inner_name h2{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: var(--hightlight_color);
+    font-family: 'roboto';
+   
+}
+
+.inner_awardintro{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0p x;
+}
+
+.inner_awardintro img{
+    width: 450px;
+    height: 300px;
+    border-radius:12px;
+
+}
+
+.intro_context{
+    padding-left: 25px;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 21.2px;
+    
 }
 
 
