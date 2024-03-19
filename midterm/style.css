@@ -2,7 +2,8 @@
 :root{
     --background_color_one: #FFF;
     --background_color_two: #FDF9F2;
-    --background_color_three: #EFE4DE;
+    --background_color_three: #ecded7;
+    --background_color_four: #6E2806;
 
     --hightlight_color:#f99601;
     --text_color_one:#372F2F;
@@ -154,7 +155,7 @@ a{
 
 /* main*/
 .sodoi_coffee{
-    min-height: 570px;
+    min-height: 540px;
     background-color: var(--background_color_two);
    
 }
@@ -183,7 +184,7 @@ a{
     font-weight: 700;
     text-align: center;
     color: var(--text_color_two);
-    padding-top: 10px;
+   
 }
 
 .inner_intro{
@@ -193,7 +194,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 0p x;
 }
 
 .inner_intro img{
@@ -204,12 +205,52 @@ a{
 }
 
 .intro_context{
-    padding-left: 20px;
+    padding-left: 25px;
     font-family: 'roboto';
     font-weight: 400;
     font-style: normal;
     font-size: 13px;
-    line-height: 21px;
+    line-height: 21.2px;
     
 }
+#text_higntlight{
+    color: var(--hightlight_color);
+    font-weight: 400;
+}
 
+/*blog*/
+
+.coffee_blog{
+    min-height: 700px;
+    background-color: var(--background_color_three);
+
+}
+
+.inner_blogtitle{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "IM Fell English SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:0px 15px 40px  var(--text_color_two)(0,0,0,0.3);
+
+}
+
+.inner_blogtitle h1{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--text_color_two);
+   
+}
+/*footer*/
+footer{
+    min-height: 100px;
+    background-color: var(--background_color_four);
+    padding-top: 50px;
+}
