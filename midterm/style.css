@@ -218,15 +218,15 @@ a{
     font-weight: 400;
 }
 
-/*blog*/
+/*our_coffee*/
 
-.coffee_blog{
+.our_coffee{
     min-height: 700px;
     background-color: var(--background_color_three);
 
 }
 
-.inner_blogtitle{
+.inner_ourcoffee{
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
@@ -241,16 +241,53 @@ a{
 
 }
 
-.inner_blogtitle h1{
+.inner_worldcoffee h1{
     font-size: 42px;
     font-weight: 700;
     text-align: center;
     color: var(--text_color_two);
    
 }
+
+.worldcoffee{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:10px ;
+}
+
+.worldcoffee>div{
+    margin-top: 20px;
+
+}
+.worldcoffee h1{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    color: var(--text_color_two);
+    margin-top:30px;
+    margin-bottom:10px;
+
+}
+.worldcoffee p{
+    color: var(--text_color_one);
+    
+}
+.guatemala_coffee{
+    background-image: url(../images/guatemala_coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 12px;
+    position: relative;
+
+}
+
+
 /*footer*/
 footer{
     min-height: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: var(--background_color_four);
     padding-top: 50px;
 }
