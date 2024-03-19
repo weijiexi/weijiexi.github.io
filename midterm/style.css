@@ -156,6 +156,8 @@ a{
 /* main*/
 .sodoi_coffee{
     min-height: 540px;
+    max-width: 1440px;
+    margin: 0 auto;
     background-color: var(--background_color_two);
    
 }
@@ -230,7 +232,7 @@ a{
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,7 +243,7 @@ a{
 
 }
 
-.inner_worldcoffee h1{
+.inner_ourcoffee h1{
     font-size: 42px;
     font-weight: 700;
     text-align: center;
@@ -249,17 +251,32 @@ a{
    
 }
 
-.worldcoffee{
+
+
+.inner_worldcoffee{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap:10px ;
 }
 
-.worldcoffee>div{
+.inner_worldcoffee > div{
     margin-top: 20px;
 
 }
-.worldcoffee h1{
+.inner_worldcoffee img{
+    display: block;
+    margin: -10px auto 0 auto;
+}
+
+.inner_worldcoffee > div:nth-child(even){
+    box-shadow: 0px 20px 40px  rgba(0,0,0,0.2);
+}
+
+.inner_worldcoffee > div:nth-child(even) img{
+    box-shadow: 0px 30px 60px  rgba(0,0,0,0.2);
+}
+
+.inner_worldcoffee h1{
     font-size: 20px;
     font-weight: 700;
     text-align: left;
@@ -268,19 +285,27 @@ a{
     margin-bottom:10px;
 
 }
-.worldcoffee p{
+
+
+.inner_worldcoffee p{
     color: var(--text_color_one);
     
 }
-.guatemala_coffee{
-    background-image: url(../images/guatemala_coffee.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    border-radius: 12px;
-    position: relative;
 
+.inner_worldcoffee a{
+  color: var(--hightlight_color);
+  font-weight: 500;
 }
+
+.world_inyoucup{
+    margin: 15px;
+    text-align: left;
+}
+
+
+
+
+
 
 
 /*footer*/
