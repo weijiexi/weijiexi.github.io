@@ -152,7 +152,7 @@ ul{
     height: 15px;
 }
 
-.account span, .cart span{
+.account a, .cart a{
     color:var(--text_color_one);
     text-decoration: none;
     font-size: 16px;
@@ -507,7 +507,7 @@ footer{
     max-width: 900px;
     margin: 0 auto;
     padding-top: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -527,16 +527,18 @@ footer{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding:0px 10px 40px 10px;
 }
 
 .inner_menu h2{
-    font-size: 25px;
+    font-size: 26px;
     font-weight: 500;
     text-align: center;
     color: var(--hightlight_color);
     margin-top:10px;
     margin-bottom:10px;
     font-family: 'roboto';
+    padding: 10px 0 0px 0;
 
 }
 
@@ -544,11 +546,15 @@ footer{
     font-size: 25px;
     font-weight: 500;
     text-align: center;
-    color: var(--text_color_two);
-    margin-top:10px;
-    margin-bottom:10px;
+    color: var(--text_color_three); 
     font-family: 'roboto';
 
+}
+
+.inner_menu p{
+    color: var(--text_color_one);
+    font-family: 'roboto';
+    font-weight: 400;
 }
 
 .inner_menu button{
@@ -565,9 +571,7 @@ footer{
 }
 
 button:hover {
-    background-color: #45a049;
-    box-shadow: 0 5px #666;
-        transform: translateY(4px);
+    box-shadow: 0 3px #8f8e8e;
+    transform: translateY(1px);
   }
   
-   
