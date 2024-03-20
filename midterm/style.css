@@ -416,17 +416,20 @@ ul{
     max-width: 1170px;
     margin: 0 auto;
     background-color: var(--background_color_four);
-   display: flex;
-   flex-direction: row;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    
 
 }
 footer{
-    min-height: 100px;
+   height: 100%;
     max-width: 1440px;
     margin: 0 auto;
     background-color: var(--background_color_four);
-    padding-top: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+   
 }
 
 .footer_nav{
