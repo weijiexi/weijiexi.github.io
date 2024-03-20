@@ -1,9 +1,10 @@
 
 :root{
     --background_color_one: #FFF;
-    --background_color_two: #f8f1e5;
+    --background_color_two: #fbf5ea;
     --background_color_three: #dbcabd;
     --background_color_four: #6E2806;
+    --background_color_five: #fcf7ef;
 
 
     --nav_color:#fa8f03;
@@ -291,7 +292,7 @@ ul{
 
 .inner_worldcoffee > div{
     margin: 10px 4px 10px 4px;
-    background-color: var(--background_color_two);
+    background-color: var(--background_color_five);
     border-radius: 12px;
 
 }
