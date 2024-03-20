@@ -43,10 +43,10 @@ ul{
 
 .wrapper{
     width:100%;
-    max-width: 1440px;
+    max-width: 90rem;
     margin: 0 auto;
     background-color: var(--background_color_two);
-    min-height: 160px;
+    min-height: 16rem;
    
    
 
@@ -56,13 +56,13 @@ ul{
 
 .top_header{
     background-color: var(--background_color_three);
-    min-height: 50px;
+    min-height: 3.125rem;
     font-family:  'roboto';
 }
 
 .inner{
     width:100%;
-    max-width: 1170px;
+    max-width: 73.125rem;
     margin: 0 auto;
     height: inherit;
     display: flex;
@@ -72,13 +72,13 @@ ul{
 .language{
     display: flex;
     justify-content: flex-start;
-    font-size: 13px;
-    line-height:50px;
+    font-size:0.8125rem;
+    line-height:3.125rem;
 }
 
 .language a{
     font-weight: 400;
-    margin-left: 30px;
+    margin-left: 1.875rem;
     color: var(--text_color_one);
 }
 
@@ -86,13 +86,13 @@ ul{
     font-weight: 400;
     display: flex;
     justify-content: flex-end;
-    font-size: 13px;
-    line-height:50px;
+    font-size: 0.8125rem;
+    line-height:3.125rem;
 }
 
 .popular_destinations a{
     font-weight: 400;
-    margin-left: 30px;
+    margin-left: 1.875rem;
     color: var(--hightlight_color);
 }
 
@@ -103,7 +103,7 @@ ul{
 
     /*main header*/
 .main_header{
-    height:100px;
+    height:6.25rem;
 }
 .header_inner{
     display: flex;
@@ -113,18 +113,18 @@ ul{
 
 .logo img{
     position: absolute;
-    width: 165px;
-    height: 160px;
-    margin-top: -30px; 
+    width: 10.3125rem;
+    height: 10rem;
+    margin-top: -1.875rem; 
 }
 
 .page_menu a{
     color:var(--text_color_one);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
-    padding: 10px;
-    margin: 20px;
+    padding: 0.625rem;
+    margin: 1.25rem;
  
     font-family: 'roboto';
 }
@@ -138,47 +138,47 @@ ul{
     
 }
 .account{
-    margin-right: -200px;
+    margin-right: -12rem;
 }
 
 .account img{
-    width: 13px;
-    height: 15px; 
+    width: 0.8125rem;
+    height: 0.9375rem; 
    
 }
 
 .cart img{
-    width: 15px;
-    height: 15px;
+    width: 0.9375rem;
+    height: 0.9375rem;
 }
 
 .account a, .cart a{
     color:var(--text_color_one);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     font-family: 'roboto';
-    padding-left: 5px;
+    padding-left: 0.3125rem;
 }
 
 .banner img{
     width: 100%;
-    height: 500px;
+    height: 31.25rem;
 }
 
 /* main*/
 .sodoi_coffee{
-    min-height: 500px;
-    max-width: 1440px;
+    min-height: 31.25rem;
+    max-width: 90rem;
     margin: 0 auto;
     background-color: var(--background_color_two);
    
 }
 .inner_sodoi{
     width: 100%;
-    max-width: 1170px;
+    max-width: 73.125rem;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,13 +189,13 @@ ul{
 }
 
 .inner_sodoi img{
-    width: 68px;
-    height: 65px;
+    width: 4.25rem;
+    height: 4.0625rem;
     padding: 0px 17px 0px 20px;
 }
 
 .inner_sodoi h1{
-    font-size: 42px;
+    font-size: 2.625rem;
     font-weight: 700;
     text-align: center;
     color: var(--text_color_two);
@@ -204,29 +204,28 @@ ul{
 
 .inner_intro{
     width: 100%;
-    max-width:1000px;
+    max-width:62.5rem;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 0p x;
 }
 
 .inner_intro img{
-    width: 250px;
-    height: 280px;
-    border-radius:12px;
+    width: 15.625rem;
+    height: 17.5rem;
+    border-radius:0.75rem;
 
 }
 
 
 
 .intro_context p{
-    padding-left: 15px;
+    padding-left: 0.9375rem;
     font-family: 'roboto';
     font-weight: 400;
     font-style: normal;
-    font-size: 13px;
+    font-size: 0.8125rem;
     line-height: 23.2px;
     
 }
@@ -234,7 +233,7 @@ ul{
 #text_higntlight{
     color: var(--hightlight_color);
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
 
 }
 
@@ -243,17 +242,17 @@ ul{
 .our_coffee{
     width: 100%;
     height: 100%;
-    max-width: 1440px;
-    min-height: 700px;
+    max-width: 90rem;
+    min-height: 43.75rem;
     background-color: var(--background_color_three);
 
 }
 
 .inner_ourcoffee{
     width: 100%;
-    max-width: 1170px;
+    max-width: 73.125rem;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 1.875rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,7 +263,7 @@ ul{
 }
 
 .world_inyoucup{
-    margin: 12px;
+    margin: 0.75rem;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -273,7 +272,7 @@ ul{
 }
 
 .inner_ourcoffee h1{
-    font-size: 42px;
+    font-size: 2.625rem;
     font-weight: 700;
     text-align: center;
     color: var(--text_color_two);
@@ -281,19 +280,19 @@ ul{
 }
 
 .inner_worldcoffee{
-    max-width: 1040px;
+    max-width: 65rem;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap:15px ;
-    padding-bottom: 40px;
+    grid-column-gap:0.9375rem;
+    padding-bottom: 2.5rem;
 
 }
 
 .inner_worldcoffee > div{
     margin: 10px 4px 10px 4px;
     background-color: var(--background_color_five);
-    border-radius: 12px;
+    border-radius: 0.75rem;
 
 }
 .inner_worldcoffee img{
@@ -340,15 +339,15 @@ ul{
 /* sodoi award*/
 
 .sodoi_award{
-    min-height: 540px;
-    max-width: 1440px;
+    min-height: 33.75rem;
+    max-width: 90rem;
     margin: 0 auto;
     background-color: var(--background_color_two);
    
 }
 .inner_award{
     width: 100%;
-    max-width: 1170px;
+    max-width: 73.125rem;
     margin: 0 auto;
     padding-top: 30px;
     display: flex;
@@ -361,13 +360,13 @@ ul{
 }
 
 .inner_award img{
-    width: 68px;
-    height: 62px;
+    width: 4.25rem;
+    height: 3.875rem;
     padding: 0px 17px 0px 20px;
 }
 
 .inner_award h1{
-    font-size: 42px;
+    font-size: 2.625rem;
     font-weight: 700;
     text-align: center;
     color: var(--text_color_two);
@@ -376,7 +375,7 @@ ul{
 
 .inner_name {
     width: 100%;
-    max-height: 30px;
+    max-height: 1.875rem;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -385,7 +384,7 @@ ul{
 
 }
 .inner_name h2{
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 400;
     text-align: center;
     color: var(--text_color_three);
@@ -395,7 +394,7 @@ ul{
 
 .inner_awardintro{
     width: 100%;
-    max-width: 1000px;
+    max-width: 62.5rem;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -404,8 +403,8 @@ ul{
 }
 
 .inner_awardintro img{
-    width: 450px;
-    height: 262px;
+    width: 28.125rem;
+    height: 16.375rem;
     border-radius:12px;
 
 }
@@ -414,7 +413,7 @@ ul{
 /*footer*/
 .footer_inner{
     width: 100%;
-    max-width: 1170px;
+    max-width: 73.125rem;
     margin: 0 auto;
     background-color: var(--background_color_four);
     display: flex;
@@ -425,11 +424,11 @@ ul{
 }
 footer{
    height: 100%;
-    max-width: 1440px;
+    max-width: 90rem;
     margin: 0 auto;
     background-color: var(--background_color_four);
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 2.1875rem;
+    padding-bottom: 2.1875rem;
    
 }
 
@@ -444,7 +443,7 @@ footer{
     line-height: 30px;
 }
 .footer_nav ul{
-    padding-right: 100px;
+    padding-right: 6.25rem;
 }
 
 .footer_social{
@@ -483,7 +482,7 @@ footer{
 
 .inner_menutitle{
     width: 100%;
-    max-width: 1170px;
+    max-width: 1170px73.125rem;
     margin: 0 auto;
     padding-top: 30px;
     display: flex;
@@ -575,3 +574,5 @@ button:hover {
     transform: translateY(1px);
   }
   
+
+  /* meida query*/
