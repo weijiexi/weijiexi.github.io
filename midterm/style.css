@@ -575,4 +575,43 @@ button:hover {
   }
   
 
-  /* meida query*/
+  /* meida query for smaller screens*/
+  
+  @media only screen and (max-width: 768px) {
+    
+    .inner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wrapper {
+        padding: 0 20px; 
+    }
+
+    .account {
+        margin-right: 0; 
+    }
+
+    .logo img {
+        width: 125px; 
+        height: auto;
+        margin-top: 45px;
+        margin-left: -225px;
+    }
+
+    .inner_worldcoffee{
+        max-width: 200px;
+        margin: 0 auto;
+        
+    
+    }
+
+    .inner_worldcoffee img{
+        display: block;
+        margin: 10px 8px 0 8px;
+        border-radius: 12px;
+    }
+
+
+
+}
