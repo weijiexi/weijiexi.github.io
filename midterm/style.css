@@ -576,7 +576,7 @@ button:hover {
   
 
   /* meida query for smaller screens*/
-  
+
   @media only screen and (max-width: 768px) {
     
     .inner {
@@ -609,7 +609,7 @@ button:hover {
     .inner_worldcoffee img{
         display: block;
         margin: 10px 8px 0 8px;
-        border-radius: 12px;
+      
     }
 
 
