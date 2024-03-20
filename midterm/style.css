@@ -82,7 +82,7 @@ ul{
     color: var(--text_color_one);
 }
 
-.popular_destinations{
+.popular_shop{
     font-weight: 400;
     display: flex;
     justify-content: flex-end;
@@ -90,13 +90,13 @@ ul{
     line-height:3.125rem;
 }
 
-.popular_destinations a{
+.popular_shop a{
     font-weight: 400;
     margin-left: 1.875rem;
     color: var(--hightlight_color);
 }
 
-.popular_destinations div{
+.popular_shop div{
     color: var(--text_color_one);
 }
 
