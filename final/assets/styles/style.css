@@ -10,6 +10,23 @@ html,body {
   margin: 0 auto;
 }
 
+p,h2{
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h2{
+  font-size: 55px;
+  font-weight: 300;
+}
+p{
+  font-size: 40px;
+  font-weight: 200;
+
+}
+
 /* Animation part */
 
   .box1 {
@@ -73,15 +90,15 @@ html,body {
   .slider {
     display: grid;
     place-items: center;
-    height: 90vh;
-    padding: 40vh 0 0 0;
+    height: 65vh;
+    padding: 48vh 0 0 0;
   }
 
   .gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    max-width: 1440px;
+    max-width: 1072px;
   }
 
   .img-card {
@@ -130,10 +147,10 @@ html,body {
 }
 .lightbox {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 500px;
+  width: 600px;
 }
 
 .lightbox img {
@@ -151,9 +168,31 @@ html,body {
   border-bottom-left-radius: 5px;
 }
 
+.intro{
+  width: 100%;
+  max-width:1072px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
 
-/*
-* footer part
+
+.me{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*footer part */
+
+.footer_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 0;
+
+}
 
 .footer_social{
     display: flex;
@@ -179,12 +218,11 @@ html,body {
 }
 
 .copyright p{
-    color: var(--background_color_one);
-    font-size: 13px;
+   font-size: 13px;
     font-weight: 400;
     font-family: 'roboto';
     margin: 0 10px 0 10px;
 }
 
-*/
+
   
