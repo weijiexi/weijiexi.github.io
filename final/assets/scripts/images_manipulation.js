@@ -89,3 +89,6 @@ function closeAllLightboxes() {
 }
 
 document.getElementById("lightbox-overlay").onclick = closeAllLightboxes;
+
+
+
