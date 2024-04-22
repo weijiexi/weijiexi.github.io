@@ -1,61 +1,116 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Weijie Xi Portfolio</title>
-</head>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+		<title>Final Project</title>
+	</head>
 
-<html>
     <body>
         <div class="wrapper">
             <header>
                 <div class="box">
-                    <h1>WEijie Xi</h1>
-                  
-                  </div>
-                  <div class="box1">
+                    <h1>Weijie Xi</h1>
+				</div>
+				<div class="box1">
                     <h1>Protfolio</h1>
-                  </div>
-                  <div class="box2">
+				</div>
+				<div class="box2">
                     <h1>2023-2024</h1>
-                  </div>             
+				</div>
             </header>
 
             <main>
                 <span class="background">
-                    <section class="gallery">
-                      <section class="img-card">
-                          <img src="imgs/1.jpg" alt="" />
-                      </section>
-                
-                      <section class="img-card">
-                          <img src="imgs/2.jpg" alt="" />
-                      </section>
-                
-                      <section class="img-card">
-                          <img src="imgs/3.jpg" alt="" />
-                      </section>
-                
-                      <section class="img-card">
-                          <img src="imgs/4.jpg" alt="" />
-                      </section>
-                
-                      <section class="img-card">
-                          <img src="imgs/5.jpg" alt="" />
-                      </section>
-                      <section class="img-card">
-                        <img src="imgs/6.jpg" alt="" />
+                    <section  id = "gallery" class="gallery">
+						<section class="img-card">
+							<img src="assets/images/1.jpg" alt="" id="picture-1">
+						</section>
+
+						<section class="img-card">
+							<img src="assets/images/2.jpg" alt="" id="picture-2">
+						</section>
+
+						<section class="img-card">
+							<img src="assets/images/3.jpg" alt="" id="picture-3">
+						</section>
+
+						<section class="img-card">
+							<img src="assets/images/4.jpg" alt="" id="picture-4">
+						</section>
+
+						<section class="img-card">
+							<img src="assets/images/5.jpg" alt="" id="picture-5">
+						</section>
+
+						<section class="img-card">
+							<img src="assets/images/6.jpg" alt="" id="picture-6">
+						</section>
+
+						<section class="img-card">
+							<img src="assets/images/7.jpg" alt="" id="picture-7">
+						</section>
+
+						<section class="img-card">
+							<img src="assets/images/8.jpg" alt="" id="picture-8">
+						</section>
                     </section>
-              
-                    <section class="img-card">
-                        <img src="imgs/7.jpg" alt="" />
-                    </section>
-              
-                    <section class="img-card">
-                        <img src="imgs/8.jpg" alt="" />
-                    </section>                     
                 </span>
+
+				<!-- full-screen overlay for lightbox -->
+				<div id="lightbox-overlay" class="hidden"></div>
+
+				<!-- lightbox pop-up elements that are hidden using a css class -->
+				<div class="lightbox hidden" id="pic1">
+					<img src="assets/images/1.jpg" alt="">
+					<div class="caption">
+						Meditation of youth, Batik painting, dye and acrylic.
+					</div>
+				</div>
+				<div class="lightbox hidden" id="pic2">
+					<img src="assets/images/2.jpg" alt="">
+					<div class="caption">
+						Melody, Digital painting.
+					</div>
+				</div>
+				<div class="lightbox hidden" id="pic3">
+					<img src="assets/images/3.jpg" alt="">
+					<div class="caption">
+						Random lines with figures, Plaster, wire, tin foil, and wire form.
+					</div>
+				</div>
+				<div class="lightbox hidden" id="pic4">
+					<img src="assets/images/4.jpg" alt="">
+					<div class="caption">
+						Dancer, Painting, acrylic.
+					</div>
+				</div>
+				<div class="lightbox hidden" id="pic5">
+					<img src="assets/images/5.jpg" alt="">
+					<div class="caption">
+						Meditation, Batik painting, dye and acrylic.
+					</div>
+				</div>
+				<div class="lightbox hidden" id="pic6">
+					<img src="assets/images/6.jpg" alt="">
+					<div class="caption">
+						Aura, Batik painting, dye.
+					</div>
+				</div>
+				<div class="lightbox hidden" id="pic7">
+					<img src="assets/images/7.jpg" alt="">
+					<div class="caption">
+						Nebula, Mixed media 3D.
+					</div>
+				</div>
+				<div class="lightbox hidden" id="pic8">
+					<img src="assets/images/8.jpg" alt="">
+					<div class="caption">
+						Aurora Snow & Mountain, Landscape sculpture, dye and LED.
+					</div>
+				</div>
+
 
                 <div>
                     <div>
@@ -82,9 +137,9 @@
                         
                     <div class="footer_social">                            
                         <div class="social_medialogo">
-                                <a href="#"><img  src="imgs/github.png" alt="instagram icon"></a>
-                                <a href="#"><img  src="imgs/instagram.png" alt="youtube icon"></a>
-                                <a href="#"><img  src="imgs/linkedin.png" alt="linkedin icon"></a>                            
+							<a href="#"><img  src="imgs/github.png" alt="instagram icon"></a>
+							<a href="#"><img  src="imgs/instagram.png" alt="youtube icon"></a>
+							<a href="#"><img  src="imgs/linkedin.png" alt="linkedin icon"></a>
                         </div>
                     </div>
                        
@@ -92,6 +147,8 @@
                 </div>
             </footer>
         </div>
+
+		<script src="assets/scripts/images_manipulation.js"></script>
 
     </body>
 </html>

@@ -1,0 +1,179 @@
+
+/*
+* Animation part
+*/
+body {
+    margin: 0;
+    padding: 0;
+    background: #221d0a;
+  }
+  .box {
+    top: 20%;
+  }
+  .box1 {
+    top: 28%;
+  }
+  .box2 {
+    top: 36%;
+  }
+  
+  .box, .box1, .box2 {
+    left: 35.2%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-align: left;
+    animation: revelar 2s forwards linear;
+  }
+  
+  .box .box1 .box2, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: verdana, serif;
+    font-size: 4em;
+    color: #f6f5f3;
+  
+    text-transform: uppercase;
+  }
+  @keyframes revelar {
+    0% {
+      width: 0;
+      height: 0;
+    }
+    30% {
+      width: 500px;
+      height: 0;
+    }
+    60% {
+      width: 500px;
+      height: 80px;
+    }
+    80% {
+      width: 500px;
+      height: 80px;
+      
+    }
+    100% {
+      width: 500px;
+      height: 80px;
+     
+    }
+  }
+
+ /*
+ * images gallery part
+ */
+  .background {
+    display: grid;
+    place-items: center;
+    height: 90vh;
+    padding: 42vh 0 0 0;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width: 1200px;
+  }
+
+  .img-card {
+    position: relative;
+    left: 0;
+    width: 120px;
+    border-radius: 1em;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    transition: 0.3s ease-in-out;
+    flex: 0.25;
+    background: beige;
+  }
+
+  .img-card img {
+    min-height: 60vh;
+  }
+
+  .img-card:hover {
+    flex: 2;
+    cursor: pointer;
+  }
+
+/**
+ * Question 2
+ */
+
+.hidden {
+  display: none;
+}
+#lightbox-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.lightbox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+}
+
+.lightbox img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.lightbox .caption {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  background: white;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+/*
+* footer part
+
+.footer_social{
+    display: flex;
+    flex-direction: column;
+}
+
+.social_medialogo{
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 10px;
+}
+.social_medialogo img{
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 0 10px;
+    filter: invert(90%);
+}
+
+.copyright{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.copyright p{
+    color: var(--background_color_one);
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'roboto';
+    margin: 0 10px 0 10px;
+}
+
+*/
+  
