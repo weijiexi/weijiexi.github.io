@@ -12,7 +12,6 @@ html,body {
 
 .wrapper p{
   text-align:left;
-
 }
 
 p,h2{
@@ -26,11 +25,10 @@ h2{
   font-size: 55px;
   font-weight: 300;
 }
+
 p{
   font-size: 35px;
   font-weight: 200;
- 
-
 }
 
 /* Animation part */
@@ -189,10 +187,6 @@ p{
 
 .me p{
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: block;
   text-align: center;
 }
 
@@ -203,7 +197,6 @@ p{
 footer{
   height: 100%;
    max-width: 1440px;
-  
    padding-bottom: 128px;
 }
 
@@ -214,11 +207,6 @@ footer{
     align-items: center; 
 }
 
-.footer_social{
-    display: flex;
-    flex-direction: column;
-    
-}
 
 .social_medialogo{
     display: flex;
