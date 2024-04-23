@@ -187,17 +187,16 @@ p{
   align-items: center;
 }
 
-.me{
+.me p{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-p{
   display: block;
   text-align: center;
 }
+
+
 
 /*footer part */
 
