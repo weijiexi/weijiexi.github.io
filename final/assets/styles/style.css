@@ -94,7 +94,7 @@ p{
     display: grid;
     place-items: center;
     height: 580px;
-    padding: 430px 0 0;
+    padding: 500px 0 0;
   }
 
   .gallery {
@@ -208,7 +208,7 @@ p{
 footer{
   height: 100%;
    max-width: 1440px;
- 
+   padding-bottom: 50px;
    padding-bottom: 128px;
 }
 
