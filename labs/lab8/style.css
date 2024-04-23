@@ -111,7 +111,8 @@ li small {
 }
 
 .dark-mode .container {
-  background: rgb(246, 168, 24);
+  background: #f8c301;
+  ;
 }
 
 .dark-mode h1 {
