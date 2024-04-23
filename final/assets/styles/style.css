@@ -6,7 +6,7 @@ html,body {
 
 .wrapper{
   width:100%;
-  max-width: 90rem;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ p{
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 4em;
+    font-size: 64px;
     color: #f8f8f6;
     text-transform: uppercase;
   }
@@ -93,8 +93,8 @@ p{
   .slider {
     display: grid;
     place-items: center;
-    height: 65vh;
-    padding: 48vh 0 0 0;
+    height: 580px;
+    padding: 430px 0 0;
   }
 
   .gallery {
@@ -109,7 +109,7 @@ p{
     left: 0;
     width: 120px;
     border-radius: 0.8em;
-    height: 65vh;
+    height: 580px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -123,7 +123,7 @@ p{
   }
 
   .img-card img {
-    min-height: 65vh;
+    min-height: 580px;
   }
 
   .img-card:hover {
@@ -184,7 +184,6 @@ p{
 
 .me{
   width: 100%;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -208,9 +207,9 @@ p{
 
 footer{
   height: 100%;
-   max-width: 90rem;
+   max-width: 1440px;
  
-   padding-bottom: 8rem;
+   padding-bottom: 128px;
 }
 
 
@@ -223,6 +222,7 @@ footer{
 .footer_social{
     display: flex;
     flex-direction: column;
+    
 }
 
 .social_medialogo{
@@ -233,7 +233,7 @@ footer{
 .social_medialogo img{
     width: 30px;
     height: 30px;
-    margin: 0 10px 0 10px;
+    margin: 20px 10px 0 10px;
     filter: invert(100%);
 }
 
@@ -251,7 +251,6 @@ footer{
 .email p{
   font-size: 35px;
   font-weight: 300;
-}
-
-
  
+    
+  }
