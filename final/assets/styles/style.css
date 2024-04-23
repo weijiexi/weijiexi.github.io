@@ -30,6 +30,8 @@ p{
 
 /* Animation part */
 
+
+
   .box1 {
     top: 20%;
   }
@@ -41,7 +43,7 @@ p{
   }
   
   .box1, .box2, .box3 {
-    left: 35%;
+    left: 30%;
     position: absolute;
     transform: translate(-50%, -50%);
     overflow: hidden;
@@ -204,12 +206,18 @@ p{
 
 /*footer part */
 
+footer{
+  height: 100%;
+   max-width: 90rem;
+ 
+   padding-bottom: 8rem;
+}
+
+
 .footer_inner{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 0 20px 0;
-
+    align-items: center; 
 }
 
 .footer_social{
@@ -226,7 +234,7 @@ p{
     width: 30px;
     height: 30px;
     margin: 0 10px 0 10px;
-    filter: invert(90%);
+    filter: invert(100%);
 }
 
 .copyright{
@@ -236,12 +244,14 @@ p{
 }
 
 .copyright p{
-   font-size: 13px;
-    font-weight: 400;
-    font-family: 'roboto';
+   font-size: 20px;
     margin: 0 10px 0 10px;
 }
 
+.email p{
+  font-size: 35px;
+  font-weight: 300;
+}
 
 
-
+ 
