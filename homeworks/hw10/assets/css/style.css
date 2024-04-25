@@ -1,15 +1,14 @@
 body {
-	margin: 0px;
+	margin: 0;
 	background-image: url("../img/clouds.jpg");
 	background-position: center;
-	font-family: 'Bangers';
+	font-family: 'Bangers', serif;
 }
 
 #title {
 	font-size: 6em;
 	text-align: center;
-	margin: 30px;
-	margin-bottom: 20px;
+	margin: 30px 30px 20px;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-weight: 400;
@@ -125,3 +124,6 @@ body {
 	bottom: 30%;
 }
 
+.hidden {
+	display: none;
+}
