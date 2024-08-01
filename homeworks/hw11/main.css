@@ -1,0 +1,302 @@
+
+
+#product-overview {
+    background: url("freedom.jpg") no-repeat;
+    background-size: cover;   
+    width: 100%;
+    height: 650px;
+
+   
+   
+  
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px;
+   
+}
+
+
+.section-title {
+    color: #010e04;
+    text-align: center;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    font-size: 50px;
+top: 10%;
+    right: 40%;
+   
+}
+
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.plan {
+    background: #f6afee;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+.plan--highlighted {
+    background: #e75feb;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__annotation {
+    background: white;
+    color: #000401;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.plan__title {
+    color: #0e4f1f;
+}
+
+.plan__price {
+    color: #858585;
+}
+
+.plan--highlighted .plan__title {
+    color: white;
+}
+
+.plan--highlighted .plan__price {
+    color: #0e4f1f;
+}
+
+.plan__features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan__feature {
+    margin: 8px 0;
+}
+
+#key-features {
+    background: #b8afb2;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title {
+    color: white;
+    margin: 32px;
+}
+
+.key-feature__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__image {
+    background: #f7f5f6;
+    width: 128px;
+    height: 128px;
+    
+    border-radius: 50%;
+    margin: auto;
+    padding: 20px;
+}
+
+.key-feature__description {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
+
+
+
+ /* tesing float  */
+ #float_test{
+    background-color: #424242;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+ }
+
+.container{
+    width: 100%;
+    margin-bottom: 100px;
+
+}
+
+.box{
+    width: 250px;
+    height: 70px;
+    text-align: center;
+    display: inline-block;
+}
+
+.left { 
+    background-color: black;
+    float: left;
+    
+}
+
+.right {
+    background-color: #ff0044;
+    float: right;
+  
+}
+
+.float_nav{
+    padding-left: 200px;
+}
+
+#float_ul{
+  background-color: aqua;
+  display: block;
+  width: 350px;
+  height: 70px;
+  margin: 0;
+
+}
+
+#float_ul_item{
+    display: inline-block;
+
+} 
+
+/* testing overflow */
+.container_overflow {
+    width: 300px;
+    height: 100px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    margin: 0 auto;
+}
+
+.visible {
+    overflow: visible;
+    background-color: rgb(210, 210, 33);
+}
+
+.hidden {
+    overflow: hidden;
+    background-color: lightcoral;
+}
+
+.scroll {
+    overflow: scroll;
+    background-color: lightgreen;
+}
+
+.auto {
+    overflow: auto;
+    background-color: lightblue;
+}
+
+
+/* testing sticky */
+.container_sticky {
+    height: 1000px;
+    background-color: #f0f0f0;
+ 
+}
+.sticky-header {
+    position: sticky;
+    top:81px;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+/* testing fliter */
+.container_filter{
+    display: flex;
+    gap: 20px;
+}
+.image {
+    width: 250px;
+    height: auto;
+}
+.blur {
+    filter: blur(5px);
+}
+.brightness {
+    filter: brightness(150%);
+}
+.contrast {
+    filter: contrast(200%);
+}
+.grayscale {
+    filter: grayscale(100%);
+}
+.hue-rotate {
+    filter: hue-rotate(90deg);
+}
+.invert {
+    filter: invert(100%);
+}
+.opacity {
+    filter: opacity(50%);
+}
+.saturate {
+    filter: saturate(200%);
+}
+.sepia {
+    filter: sepia(100%);
+}
+
+/* testing background */
+.testing_background{
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+   
+
+}
+.example1 {
+    background: #ff0000 url(1.jpg) no-repeat fixed center/cover;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+.example2 {
+    background-color: #00ff00;
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top left;
+    background-size: 100px 100px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
