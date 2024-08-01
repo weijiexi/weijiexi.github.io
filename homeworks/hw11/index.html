@@ -4,24 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>uHost</title>
     <link rel="shortcut icon" href="favicon.png">
-    
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    
     <link rel="stylesheet" href="shared.css">
     <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
+    <div class="backdrop"></div>
+    <div class="modal">
+        <h1 class="modal__title">Do you want to continue?</h1>
+        <div class="modal__actions">
+            <a href="start-hosting/index.html" class="modal__action">Yes!</a>
+            <button class="modal__action modal__action--negative" type="button">No!</button>
+        </div>
+    </div>
     <header class="main-header">
         <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
             <a href="index.html" class="main-header__brand">
-                <img src="wj-logo.png" alt="weijie's logo">
+                <img src="images/wj-logo.png" alt="uHost - Your favorite hosting company">
             </a>
         </div>
-
         <nav class="main-nav">
             <ul class="main-nav__items">
                 <li class="main-nav__item">
@@ -36,12 +47,23 @@
             </ul>
         </nav>
     </header>
-    
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="packages/index.html">Packages</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="customers/index.html">Customers</a>
+            </li>
+            <li class="mobile-nav__item mobile-nav__item--cta">
+                <a href="start-hosting/index.html">Start Hosting</a>
+            </li>
+        </ul>
+    </nav>
     <main>
         <section id="product-overview">
-            <h1 >Get the freedom you deserve.</h1>
+            <h1>Get the freedom you deserve.</h1>
         </section>
-
         <section id="plans">
             <h1 class="section-title">Choose Your Plan</h1>
             <div class="plan__list">
@@ -184,9 +206,6 @@
                             />
 
                         </svg>
-  
-
-
                     </div>
                     <p class="key-feature__description">3,857,000 Trusting Customers</p>
                 </li>
@@ -237,8 +256,6 @@
                                 <path style="fill:#3CBDE8;" d="M232.523,343.667c21.144,50.298,54.363,86.56,99.087,108.06l0.117-108.06H232.523z" />
                             </g>
                         </svg>
-
-
                     </div>
                     <p class="key-feature__description">99.999% Uptime Guarantee</p>
                 </li>
@@ -278,15 +295,12 @@
                             </g>
 
                         </svg>
-
-
                     </div>
                     <p class="key-feature__description">Lightning Fast CDN</p>
                 </li>
             </ul>
         </section>
     </main>
-
     <footer class="main-footer">
         <nav>
             <ul class="main-footer__links">
@@ -299,65 +313,7 @@
             </ul>
         </nav>
     </footer>
-    
-    <!-- testing float -->
-    <section>
-        <h1 id="float_test">testing display and float & Styling our Navigation Bar
-        </h1>
-
-        <div class="container ">
-            <div class="box left">
-                <img src="wj-logo.png" alt="Description of image">
-            </div>
-            <nav class="box float_nav">
-                <ul id="float_ul">
-                    <li id="float_ul_item">testing</li>
-                    <li id="float_ul_item">float</li>
-                </ul>
-            </nav>
-            <div class="box right">Right Float</div>  
-        </div>
-    </section>
-
-
-    <!-- testing sticky & overflow -->
-    <section class="container_sticky">
-        <div class="sticky-header">I am a sticky header</div>
-        <div class="container_overflow visible">
-            <p>This is some overflowing text. This is some overflowing text. This is some overflowing text. This is some overflowing text.This is some overflowing text. This is some overflowing text. This is some overflowing text. This is some overflowing text.</p>
-        </div>
-        <div class="container_overflow hidden">
-            <p>This is some overflowing text. This is some overflowing text. This is some overflowing text. This is some overflowing text.This is some overflowing text. This is some overflowing text. This is some overflowing text. This is some overflowing text.</p>
-        </div>
-        <div class="container_overflow scroll">
-            <p>This is some overflowing text. This is some overflowing text. This is some overflowing text. This is some overflowing text.This is some overflowing text. This is some overflowing text. This is some overflowing text. This is some overflowing text.</p>
-        </div>
-        <div class="container_overflow auto">
-            <p>This is some overflowing text. This is some overflowing text. This is some overflowing text. This is some overflowing text.This is some overflowing text. This is some overflowing text. This is some overflowing text. This is some overflowing text.</p>
-        </div>
-    </section>
-
-    <!-- testing filter -->
-    <section class="container_filter">
-        <img src="1.jpg" alt="Original" class="image">
-        <img src="1.jpg" alt="Blurred" class="image blur">
-        <img src="1.jpg" alt="Brightened" class="image brightness">
-        <img src="1.jpg" alt="High Contrast" class="image contrast">
-        <img src="1.jpg" alt="Grayscale" class="image grayscale">
-        <img src="1.jpg" alt="Hue Rotate" class="image hue-rotate">
-        <img src="1.jpg" alt="Inverted" class="image invert">
-        <img src="1.jpg" alt="Opacity" class="image opacity">
-        <img src="1.jpg" alt="Saturated" class="image saturate">
-        <img src="1.jpg" alt="Sepia" class="image sepia">
-    </section>
-   
-    <!-- testing background -->
-    <section class="testing_background">
-        <div class="example1">Example 1: Shorthand</div>
-        <div class="example2">Example 2: Individual Properties</div>
-    </section>
-
-    
+    <script src="shared.js"></script>
 </body>
 
 </html>
