@@ -5,4 +5,6 @@ This project is set up with Parcel Bundler, an npm package that compiles our fro
 ### Install parce
 npm install --save-dev parcel 
 ### Run parce
-npx parcel ./index.html on http://localhost:61264/.
+npx parcel ./index.html 
+
+ http://localhost:61264/
