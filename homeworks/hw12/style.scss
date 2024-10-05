@@ -1,0 +1,62 @@
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: 'Helvetica Neue', sans-serif;
+$border-radius: 5px;
+
+// Mixin for reusable code
+@mixin button-style($bg-color, $text-color) {
+  background-color: $bg-color;
+  color: $text-color;
+  border: none;
+  padding: 10px 20px;
+  border-radius: $border-radius;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($bg-color, 10%);
+  }
+}
+
+// Styles for body and layout
+body {
+  font-family: $font-stack;
+  background-color: #ecf0f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+// Styling the card component
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: $border-radius;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: center;
+
+  h1 {
+    color: $primary-color;
+    font-size: 24px;
+  }
+
+  p {
+    color: #7f8c8d;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  // Button styles using mixin
+  .button-primary {
+    @include button-style($primary-color, #fff);
+  }
+
+  .button-secondary {
+    @include button-style($secondary-color, #fff);
+  }
+}
